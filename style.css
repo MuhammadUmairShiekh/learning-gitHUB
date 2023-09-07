@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+
+}
+.bac{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    background-color: #f6f6f6;
+    width: 40%;
+    /* height: 50vh; */
+    padding: 20px;  
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;   
+   
+   
+}
+
+button{
+    margin-top: 40px;
+  width: 90%;
+  text-align:  center ;
+  display: inline-block;
+  border: 2px groove rgb(52, 142, 211);
+  background-color: rgb(82, 107, 222);
+  color: white;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
